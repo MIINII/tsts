@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile:ts": "tsc -p tsconfig.json src/*.ts",
+    "watch:ts": "npm run compile -- --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
